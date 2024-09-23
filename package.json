@@ -1,0 +1,30 @@
+{
+	"name": "threejs-custom-bundler",
+	"version": "1.0.0",
+	"description": "Bundes entire Three.js library to a single bundle file",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx webpack --stats-error-details"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rondevs/threejs-custom-bundler.git"
+	},
+	"author": "Rownok Bosunia",
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/rondevs/threejs-custom-bundler/issues"
+	},
+	"homepage": "https://github.com/rondevs/threejs-custom-bundler#readme",
+	"dependencies": {
+		"three": "^0.168.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.25.2",
+		"@babel/preset-env": "^7.25.4",
+		"babel-loader": "^9.2.1",
+		"webpack": "^5.94.0",
+		"webpack-bundle-analyzer": "^4.10.2",
+		"webpack-cli": "^5.1.4"
+	}
+}
