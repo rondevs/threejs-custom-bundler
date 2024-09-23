@@ -7,13 +7,13 @@ Verify-bundle file with sha256sum:
 "dependencies": {
 		"three": "^0.168.0"
 	},
-	"devDependencies": {
-		"@babel/core": "^7.25.2",
-		"@babel/preset-env": "^7.25.4",
-		"babel-loader": "^9.2.1",
-		"webpack": "^5.94.0",
-		"webpack-bundle-analyzer": "^4.10.2",
-		"webpack-cli": "^5.1.4"
-	}
+"devDependencies": {
+	"@babel/core": "^7.25.2",
+	"@babel/preset-env": "^7.25.4",
+	"babel-loader": "^9.2.1",
+	"webpack": "^5.94.0",
+	"webpack-bundle-analyzer": "^4.10.2",
+	"webpack-cli": "^5.1.4"
+}
 
 ```
